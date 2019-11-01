@@ -56,7 +56,7 @@ class Person
     elsif topic == "politics"
       friend.happiness -= 2
       self.happiness -= 2
-      return 
+      return "blah blah partisan blah lobbyist"
     else
       
     end
