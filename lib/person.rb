@@ -58,7 +58,7 @@ class Person
       self.happiness -= 2
       return "blah blah partisan blah lobbyist"
     else
-      
+      return "blah blah blah blah blah"
     end
   end
   
