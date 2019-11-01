@@ -51,6 +51,11 @@ class Person
     @hygiene > 7 ? true : false
   end
   
+  def get_paid(amount)
+    self.bank_account += amount
+    
+  end
+  
   def call_friend(friend)
     self.happiness += 3
     friend.happiness += 3
