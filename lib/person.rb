@@ -2,6 +2,7 @@
 class Person
 
   attr_reader :name, :bank_account
+  attr_accessor 
 
   def initialize(name)
     @name = name
