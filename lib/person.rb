@@ -53,8 +53,10 @@ class Person
   
   def get_paid(amount)
     self.bank_account += amount
-    
+    "all about the benjamins"
   end
+  
+  
   
   def call_friend(friend)
     self.happiness += 3
