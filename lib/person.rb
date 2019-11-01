@@ -40,7 +40,12 @@ class Person
   end
   
   def take_bath
-    self.hygeine += 4
+    self.hygiene += 4
+  end
+  
+  def happy?
+    @hygiene > 7 ? true : false
+    
   end
   
   def call_friend(friend)
