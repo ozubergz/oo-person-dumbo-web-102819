@@ -41,6 +41,7 @@ class Person
   
   def take_bath
     self.hygiene += 4
+    
   end
   
   def happy?
