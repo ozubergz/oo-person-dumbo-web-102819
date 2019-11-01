@@ -45,7 +45,6 @@ class Person
   
   def happy?
     @hygiene > 7 ? true : false
-    
   end
   
   def call_friend(friend)
