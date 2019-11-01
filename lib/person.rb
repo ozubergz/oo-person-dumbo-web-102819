@@ -25,7 +25,7 @@ class Person
     @happiness
   end
 
-  def hygeine=(num)
+  def hygiene=(num)
     if num > 10
       @hygiene= 10
     elsif num < 0
@@ -35,8 +35,8 @@ class Person
     end
   end
 
-  def hygeine
-    @hygeine
+  def hygiene
+    @hygiene
   end
   
   def take_bath
