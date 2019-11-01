@@ -8,7 +8,7 @@ class Person
     @name = name
     @bank_account = 25
     @happiness = 8
-    @hygeine = 8
+    @hygiene = 8
   end
 
   def happiness=(num)
@@ -27,11 +27,11 @@ class Person
 
   def hygeine=(num)
     if num > 10
-      @hygeine= 10
+      @hygiene= 10
     elsif num < 0
-      @hygeine = 0
+      @hygiene = 0
     else
-      @hygeine = num
+      @hygiene = num
     end
   end
 
