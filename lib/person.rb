@@ -47,6 +47,10 @@ class Person
     @happiness > 7 ? true : false
   end
   
+  def clean?
+    @hygiene > 7 ? true : false
+  end
+  
   def call_friend(friend)
     self.happiness += 3
     friend.happiness += 3
